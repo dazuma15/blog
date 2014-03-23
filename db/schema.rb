@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140321024825) do
+ActiveRecord::Schema.define(version: 20140323222350) do
 
   create_table "comments", force: true do |t|
     t.string   "commenter"
@@ -28,6 +28,10 @@ ActiveRecord::Schema.define(version: 20140321024825) do
     t.text     "text"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
   end
 
 end
