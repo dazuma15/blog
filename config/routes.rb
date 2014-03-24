@@ -1,7 +1,10 @@
 Blog::Application.routes.draw do
+  devise_for :admins
   resources :posts do
     resources :comments
   end
+  resources :welcome
+  #get '/welcome/show', to: 'welcome#show'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
