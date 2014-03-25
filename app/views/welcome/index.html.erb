@@ -12,7 +12,7 @@
       <td><%= image_tag post.photo.url %></td>
       <td><%= post.title %></td>
       <td><%= post.text %></td>
-      <td><%= link_to 'Show', welcome_path %></td>
+      <td><%= link_to 'Show', welcome_path(post.id) %></td>
     </tr>
   <% end %>
 </table>
