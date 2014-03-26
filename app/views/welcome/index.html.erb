@@ -1,11 +1,16 @@
+<% if admin_signed_in? %>
+<%= link_to 'Admin Page', posts_path %>
+<% else %>
 <%= link_to 'Sign In', new_admin_session_path %>
+<% end %>
 
- 
+ <div id="content">
   <% @posts.each do |post| %>
     <table class="post">
       <tr><td><%= post.title %></td></tr>
-      <tr><td><%= image_tag post.photo.url %></td></tr>
+      <tr><td><%= image_tag post.photo.url(:small) %></td></tr>
       <tr><td><%= post.text %></td></tr>
       <tr><td><%= link_to 'View Post', welcome_path(post.id) %></td></tr>
     </table>
   <% end %>
+ </div>
