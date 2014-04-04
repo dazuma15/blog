@@ -1,15 +1,19 @@
+<div class="comment">
 <p>
-  <strong>Commenter:</strong>
-  <%= comment.commenter %>
+  <strong><%= comment.commenter %></strong>
 </p>
  
 <p>
-  <strong>Comment:</strong>
   <%= comment.body %>
 </p>
+</div>
 
 <p>
+	
+  <% if admin_signed_in? %>
   <%= link_to 'Destroy Comment', [comment.post, comment],
                method: :delete,
                data: { confirm: 'Are you sure?' } %>
+  <% else %>
+  <% end %>
 </p>
