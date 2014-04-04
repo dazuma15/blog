@@ -17,7 +17,7 @@ Blog::Application.configure do
   config.action_controller.perform_caching = false
   
   # Set mailer for development environment
-  config.action_mailer.default_url_options = { host: 'localhost:3000' }
+  config.action_mailer.default_url_options = { host: '127.0.0.1:3000' }
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false

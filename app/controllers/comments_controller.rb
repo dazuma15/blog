@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
   def create
     @post = Post.find(params[:post_id])
     @comment = @post.comments.create(params[:comment].permit(:commenter, :body))
-    
+    CommentMailer.comments_notification(@comment, @post).deliver
     redirect_to welcome_path(@post)
   end
   
