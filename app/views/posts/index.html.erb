@@ -1,17 +1,13 @@
-<%= link_to 'New post', new_post_path %>
-<%= link_to 'Home', root_path %>
-<%= link_to('Logout', destroy_admin_session_path, :method => :delete) %>
-
  <div id="content">
   <% @posts.each do |post| %>
     <table class="post">
       <tr><td><h1><%= post.title %></h1></td></tr>
       <tr><td><%= image_tag post.photo.url(:small) %></td></tr>
       <tr><td class="text"><%= post.text %></td></tr>
-      <tr><td><%= link_to 'Show', post %>
-      <%= link_to 'Edit', edit_post_path(post) %>
+      <tr><td><%= link_to 'Show', post, :class => "button" %>
+      <%= link_to 'Edit', edit_post_path(post), :class => "button" %>
       <%= link_to 'Delete', post_path(post),
-                      method: :delete, data: { confirm: 'Are you sure?' } %></td></tr>
+                      method: :delete, data: { confirm: 'Are you sure?' }, :class => "button" %></td></tr>
     </table>
   <% end %>
  </div>

@@ -10,6 +10,12 @@
 </head>
 <body>
 <% if admin_signed_in? %>
+<%= link_to 'New post', new_post_path %>
+<%= link_to 'Home', root_path %>
+<%= link_to('Logout', destroy_admin_session_path, :method => :delete) %>
+<% end %>
+
+<% if admin_signed_in? %>
 <%= link_to 'Admin Page', posts_path %>
 <% else %>
 <%= link_to 'Sign In', new_admin_session_path %>
