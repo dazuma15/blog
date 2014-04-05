@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="54" version="2.0">
 <workbenchAdvisor/>
 <window height="860" maximized="true" width="800" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -32,12 +32,17 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.erb.html" name="application.html.erb" partName="application.html.erb" title="application.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.erb.html" name="new.html.erb" partName="new.html.erb" title="new.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/devise/sessions/new.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/devise/sessions/new.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="629" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="edit.html.erb" partName="edit.html.erb" title="edit.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/posts/edit.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/posts/edit.html.erb"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
@@ -68,7 +73,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.erb.html" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -172,9 +177,23 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/devise/sessions/new.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/posts/edit.html.erb"/>
 </editors>
-<item active="true" historyLabel="application.html.erb" index="0">
+<item historyLabel="application.html.erb" index="0">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="new.html.erb" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="new.html.erb" index="1">
+<position info="not_deleted" x="648" y="0"/>
+</item>
+<item historyLabel="edit.html.erb" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="new.html.erb" index="1">
+<position info="not_deleted" x="648" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -193,6 +212,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="edit.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/posts/edit.html.erb">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/posts/edit.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="new.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/devise/sessions/new.html.erb">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/devise/sessions/new.html.erb"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="application.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb">
 <persistable uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
 </file>
@@ -231,12 +256,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="application.rb" tooltip="/home/derek/Desktop/Work/blog/config/application.rb">
 <persistable uri="file:/home/derek/Desktop/Work/blog/config/application.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="comments_controller.rb" tooltip="/home/derek/Desktop/Work/blog/app/controllers/comments_controller.rb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/controllers/comments_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20140321024825_create_comments.rb" tooltip="/home/derek/Desktop/Work/blog/db/migrate/20140321024825_create_comments.rb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/db/migrate/20140321024825_create_comments.rb"/>
 </file>
 </mruList>
 </workbench>
