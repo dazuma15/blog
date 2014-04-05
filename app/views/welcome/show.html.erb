@@ -1,0 +1,19 @@
+<div id="content">
+
+
+<h1><%= @post.title %></h1>
+
+<%= image_tag @post.photo.url(:large) %>
+ 
+<p class="text">
+  <%= @post.text %>
+</p>
+
+<h2>Comments</h2>
+<%= render @post.comments %>
+
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
+<%= link_to 'Back', root_path, :class => "button", :style => "margin-bottom: 15px;" %>
+</div>
