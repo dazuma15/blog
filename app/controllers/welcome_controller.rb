@@ -1,6 +1,10 @@
 class WelcomeController < ApplicationController
   def index
-    @posts = Post.paginate(:page => params[:page], :per_page => 12)
+    if mobile_device?
+      @posts = Post.all
+    else
+    @posts = Post.paginate(:page => params[:page], :per_page => 5)
+    end
   end
   
    def show

@@ -1,5 +1,5 @@
- <div id="content">
-  <div id="intro">
+<div id="mobile_content">
+  <div id="mobile_intro">
   	<h1>Thank you for visting our page!</h1>
   	<p class="text">I created this website so family and friends that are located all over the country can watch Paisley grow up with us.
   		This is only the first version of the site, so we promise more will come. The site is currently being hosted for free,
@@ -12,14 +12,12 @@
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
   </div>
-  <%= will_paginate @posts %>
   <% @posts.each do |post| %>
-    <table class="post">
+    <table class="mobile_post">
       <tr><td><h1><%= post.title %></h1></td></tr>
-      <tr><td><%= image_tag post.photo.url(:small) %></td></tr>
+      <tr><td><%= image_tag post.photo.url(:mobile) %></td></tr>
       <tr><td class="text"><%= post.text %></td></tr>
       <tr><td><%= link_to 'View Post', welcome_path(post.id), :class => "button" %></td></tr>
     </table>
   <% end %>
-  <%= will_paginate @posts %>
  </div>

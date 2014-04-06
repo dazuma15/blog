@@ -17,8 +17,37 @@
   background-color: rgba(#00b200, .5);
 }
 
+#mobile_content {
+  text-align: center;
+  border-style: double;
+  border-radius: 20px;
+  border-color: #00b200;
+  border-width: 10px;
+  background-color: rgba(#00b200, .5);
+}
+
 #intro {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#mobile_intro {
+  width: 100%;
+}
+
+#mobile_intro h1 {
+  font-size: 400%;
+}
+
+#mobile_intro p {
+  font-size: 300%;
+}
+
+#mobile_intro input {
+  width: 50%;
+}
+
+.pagination {
+  margin-top: 25px;
 }
