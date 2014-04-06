@@ -24,6 +24,28 @@
   border-color: #00b200;
   border-width: 10px;
   background-color: rgba(#00b200, .5);
+  h2{
+    font-size: 350%;
+  }
+  p {
+    font-size: 350%;
+  }
+  input {
+    width: 50%;
+    font-size: 50%;
+  }
+  textarea {
+    width: 50%;
+    height: 100px;
+    font-size: 50%;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+#mobile_heading {
+  font-size: 350%;
 }
 
 #intro {

@@ -1,0 +1,19 @@
+<div id="mobile_content">
+
+
+<h1 id="mobile_heading"><%= @post.title %></h1>
+
+<%= image_tag @post.photo.url(:mobile) %>
+ 
+<p class="text">
+  <%= @post.text %>
+</p>
+
+<h2>Comments</h2>
+<%= render @post.comments %>
+
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
+<%= link_to 'Back', root_path, :class => "mobile_button", :style => "margin-bottom: 15px;" %>
+</div>
