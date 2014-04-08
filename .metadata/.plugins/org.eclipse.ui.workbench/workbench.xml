@@ -19,8 +19,8 @@
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.sass" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.erb.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.sass" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.erb.html" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.ruby" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -30,36 +30,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.erb.html" name="show.html.erb" partName="show.html.erb" title="show.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views_mobile/welcome/show.html.erb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views_mobile/welcome/show.html.erb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="50" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.sass" name="welcome.css.scss" partName="welcome.css.scss" title="welcome.css.scss" tooltip="/home/derek/Desktop/Work/blog/app/assets/stylesheets/welcome.css.scss" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/welcome.css.scss"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="871" selectionTopPixel="416"/>
-</editor>
-<editor id="com.aptana.editor.sass" name="posts.css.scss" partName="posts.css.scss" title="posts.css.scss" tooltip="/home/derek/Desktop/Work/blog/app/assets/stylesheets/posts.css.scss" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/posts.css.scss"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="441" selectionTopPixel="76"/>
-</editor>
-<editor id="com.aptana.editor.css" name="application.css" partName="application.css" title="application.css" tooltip="/home/derek/Desktop/Work/blog/app/assets/stylesheets/application.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/application.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3864" selectionTopPixel="1950"/>
-</editor>
-<editor id="com.aptana.editor.erb.html" name="index.html.erb" partName="index.html.erb" title="index.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views_mobile/welcome/index.html.erb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views_mobile/welcome/index.html.erb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1232" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -88,7 +62,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.editor.sass" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -189,166 +163,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views_mobile/welcome/show.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/welcome.css.scss"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/posts.css.scss"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/application.css"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/welcome/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views_mobile/welcome/index.html.erb"/>
-</editors>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="114" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="114" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="114" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="802" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="114" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="802" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="313" y="30"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="645" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="114" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="676" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="114" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="796" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="114" y="0"/>
-</item>
-<item historyLabel="application.css" index="3">
-<position info="not_deleted" x="4262" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="4">
-<position info="not_deleted" x="1462" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="5">
-<position info="not_deleted" x="1453" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="796" y="0"/>
-</item>
-<item historyLabel="application.css" index="3">
-<position info="not_deleted" x="3864" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="5">
-<position info="not_deleted" x="1452" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="313" y="30"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="730" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="313" y="30"/>
-</item>
-<item historyLabel="index.html.erb" index="5">
-<position info="not_deleted" x="1452" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="313" y="30"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="618" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="441" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="618" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="618" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="618" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="441" y="0"/>
-</item>
-<item historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="624" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="5">
-<position info="not_deleted" x="1232" y="0"/>
-</item>
-<item historyLabel="application.css" index="3">
-<position info="not_deleted" x="3864" y="0"/>
-</item>
-<item historyLabel="posts.css.scss" index="2">
-<position info="not_deleted" x="441" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="5">
-<position info="not_deleted" x="1232" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="0">
-<position info="not_deleted" x="50" y="0"/>
-</item>
-<item active="true" historyLabel="welcome.css.scss" index="1">
-<position info="not_deleted" x="624" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -365,6 +180,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="application.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views_mobile/welcome/index.html.erb">
 <persistable uri="file:/home/derek/Desktop/Work/blog/app/views_mobile/welcome/index.html.erb"/>
 </file>
@@ -388,9 +206,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="application_controller.rb" tooltip="/home/derek/Desktop/Work/blog/app/controllers/application_controller.rb">
 <persistable uri="file:/home/derek/Desktop/Work/blog/app/controllers/application_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="application.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="welcome_controller.rb" tooltip="/home/derek/Desktop/Work/blog/app/controllers/welcome_controller.rb">
 <persistable uri="file:/home/derek/Desktop/Work/blog/app/controllers/welcome_controller.rb"/>

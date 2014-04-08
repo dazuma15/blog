@@ -1,0 +1,20 @@
+<div id="mobile_content">
+<h2>Sign in</h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div id="email"><%= f.label :email %><br />
+  <%= f.email_field :email, autofocus: true, :style => "border-radius: 25px;" %></div>
+
+  <div id="email"><%= f.label :password %><br />
+    <%= f.password_field :password, autocomplete: "off", :style => "border-radius: 25px;" %></div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div id="remember"><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+  <% end -%>
+
+  <div id="sign_in"><%= f.submit "Sign in" %></div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+<%= link_to "Back", root_path, :class => "mobile_button", :style => "margin-bottom: 20px;" %>
+</div>
