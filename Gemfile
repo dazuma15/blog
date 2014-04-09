@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Seed_dump to make seed file of db
+gem 'seed_dump'
+
 # Paperclip to upload images
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
