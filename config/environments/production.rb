@@ -80,4 +80,14 @@ Blog::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+  
+  # set credentials for s3
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['paisleythroughalens'],
+    :access_key_id => ENV['AKIAJOBCA4KG6XNWDUVQ'],
+    :secret_access_key => ENV['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']
+  }
+}
 end

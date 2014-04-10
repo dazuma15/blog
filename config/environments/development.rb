@@ -32,4 +32,14 @@ Blog::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  
+  # s3  credentials for storing pictures to s3
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['paisleythroughalens'],
+    :access_key_id => ENV['AKIAJOBCA4KG6XNWDUVQ'],
+    :secret_access_key => ENV['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']
+  }
+}
 end

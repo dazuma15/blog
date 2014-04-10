@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Seed_dump to make seed file of db
 gem 'seed_dump'
 
+# s3 gem to upload pictures to s3
+gem 'aws-sdk'
+
 # Paperclip to upload images
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
