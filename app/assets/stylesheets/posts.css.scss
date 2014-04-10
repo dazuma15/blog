@@ -18,7 +18,6 @@
 
 .mobile_post {
   width: 100%;
-  text-align: center;
   font-size: 250%;
   margin-bottom: 15px;
   border-top: thin solid #00b200;
@@ -32,6 +31,12 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+
+.mobile_text {
+  width: 100%;
+  font-family: 'Carrois Gothic', sans-serif;
+  color: #474141;
 }
 
 
