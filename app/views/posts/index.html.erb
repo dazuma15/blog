@@ -2,7 +2,7 @@
   <% @posts.each do |post| %>
     <table class="post">
       <tr><td><h1><%= post.title %></h1></td></tr>
-      <tr><td><%= image_tag post.photo.url(:small) %></td></tr>
+      <tr><td><%= image_tag post.photo.url(:small), :class => "rounded" %></td></tr>
       <tr><td class="text"><%= post.text %></td></tr>
       <tr><td><%= link_to 'Show', post, :class => "button" %>
       <%= link_to 'Edit', edit_post_path(post), :class => "button" %>

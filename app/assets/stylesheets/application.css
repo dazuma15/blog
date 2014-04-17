@@ -9,6 +9,7 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require fancybox
  *= require_tree .
  */
 h1 {
@@ -32,7 +33,7 @@ h2 {
 	color: #474141;
 }
 
-img {
+.rounded {
 	border-radius: 25px;
 }
 
@@ -142,4 +143,5 @@ img {
 	position:relative;
 	top:1px;
 }
+
 /* This button was generated using CSSButtonGenerator.com */

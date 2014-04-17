@@ -6,6 +6,12 @@ gem 'seed_dump'
 # s3 gem to upload pictures to s3
 gem 'aws-sdk'
 
+# Fancybox for pop ups
+gem 'fancybox2-rails'
+
+# jquery turbolinks to fix fancybox error
+gem 'jquery-turbolinks'
+
 # Paperclip to upload images
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 

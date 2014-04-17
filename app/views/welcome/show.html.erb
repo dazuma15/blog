@@ -3,7 +3,7 @@
 
 <h1><%= @post.title %></h1>
 
-<%= image_tag @post.photo.url(:large) %>
+<a href=<%= @url %> class="fancybox"><%= image_tag @post.photo.url(:large), :class => "rounded" %></a>
  
 <p class="text">
   <%= @post.text %>

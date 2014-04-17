@@ -9,6 +9,7 @@ class WelcomeController < ApplicationController
   
    def show
     @post = Post.find(params[:id])
+    @url = @post.photo.url(:mobile)
   end
 end
 
