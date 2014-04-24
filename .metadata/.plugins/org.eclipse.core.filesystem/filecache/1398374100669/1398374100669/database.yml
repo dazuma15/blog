@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: appname_development
+  pool: 5
+  timeout: 5000
+  username: derek
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: appname_test
+  pool: 5
+  timeout: 5000
+  username: derek
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: appname_test
+  pool: 5
+  timeout: 5000
+  username: derek
+  password:
