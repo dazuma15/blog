@@ -12,6 +12,11 @@
   <%= f.label :upload %>
   <%= f.file_field :upload %>
   
+  <p>
+  <%= link_to 'Destroy Photo', [photo.album, photo],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+  </p>
 
     <%= f.submit %>
   </p>
