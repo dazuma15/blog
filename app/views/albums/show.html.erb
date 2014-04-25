@@ -3,5 +3,19 @@
   <%= @album.title %>
 </p>
 
+<% @photos.each do |photo| %>
+<%= image_tag photo.upload.url() %>
+<% end %>
+
+<h2>Add a photo:</h2>
+<%= form_for([@album, @album.photos.build], :html => { :multipart => true }) do |f| %>
+  <%= f.label :upload %>
+  <%= f.file_field :upload %>
+  
+
+    <%= f.submit %>
+  </p>
+<% end %>
+
 <%= link_to 'Back', albums_path%>
 <%= link_to 'Edit', edit_album_path(@album) %>
