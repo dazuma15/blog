@@ -5,6 +5,11 @@
 
 <% @photos.each do |photo| %>
 <%= image_tag photo.upload.url() %>
+<p>
+ <%= link_to 'Destroy Photo', [photo.album, photo],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
 <% end %>
 
 <h2>Add a photo:</h2>
@@ -12,11 +17,6 @@
   <%= f.label :upload %>
   <%= f.file_field :upload %>
   
-  <p>
-  <%= link_to 'Destroy Photo', [photo.album, photo],
-               method: :delete,
-               data: { confirm: 'Are you sure?' } %>
-  </p>
 
     <%= f.submit %>
   </p>
