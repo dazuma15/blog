@@ -1,17 +1,21 @@
-<p>
-  <strong>Title:</strong>
+<div id="content">
+<h1>
   <%= @album.title %>
-</p>
+</h1>
 
 <% @photos.each do |photo| %>
-<%= image_tag photo.upload.url() %>
+<div class="photo">
+<%= image_tag photo.upload.url(:small) %>
+<% if admin_signed_in? %>
 <p>
- <%= link_to 'Destroy Photo', [photo.album, photo],
+ <%= link_to 'Delete', [photo.album, photo],
                method: :delete,
-               data: { confirm: 'Are you sure?' } %>
+               data: { confirm: 'Are you sure?' }, :class => "button" %>
 </p>
 <% end %>
-
+</div>
+<% end %>
+<% if admin_signed_in? %>
 <h2>Add a photo:</h2>
 <%= form_for([@album, @album.photos.build], :html => { :multipart => true }) do |f| %>
   <%= f.label :upload %>
@@ -21,6 +25,9 @@
     <%= f.submit %>
   </p>
 <% end %>
-
-<%= link_to 'Back', albums_path%>
-<%= link_to 'Edit', edit_album_path(@album) %>
+<% end %>
+<%= link_to 'Back', albums_path, :class => "button" %>
+<% if admin_signed_in? %>
+<%= link_to 'Edit', edit_album_path(@album), :class => "button" %>
+<% end %>
+</div>

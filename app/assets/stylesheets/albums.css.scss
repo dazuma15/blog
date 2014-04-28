@@ -1,3 +1,31 @@
 // Place all the styles related to the albums controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#content {
+  padding-bottom: 20px;  
+}
+
+.album {
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-table;
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr {
+    width: 100%;
+  }
+  td {
+    display: inline;
+    width: 33%;
+    text-align: center;
+  }
+}
+
+.photo {
+  width: 33%;
+  display: inline-table;
+  text-align: center;
+}
