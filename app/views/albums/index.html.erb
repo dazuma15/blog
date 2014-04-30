@@ -1,6 +1,8 @@
 <div id="content">
+<div id="home">
+<%= link_to 'Home', root_path, :class => "button" %>
+</div>
 <h1>Albums</h1>
-
   <% @albums.each do |album| %>
   <div class="album">
     <table>
@@ -8,7 +10,9 @@
       <td><h2><%= album.title %></h2></td>
     </tr>
     <tr>
+      <% if album.photos.first %>
       <td><%= image_tag album.photos.first.upload.url(:small) %></td>
+      <% end %>
     </tr>
     <tr>
       <td><%= link_to 'Show', album_path(album), :class => "button" %></td>

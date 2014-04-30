@@ -2,7 +2,10 @@ class PhotosController < ApplicationController
   def create
     @album = Album.find(params[:album_id])
     @photo = @album.photos.create(photo_params)
-    redirect_to album_path(@album)
+      
+    respond_to do |format|
+        format.js
+    end
   end
   
   def destroy
