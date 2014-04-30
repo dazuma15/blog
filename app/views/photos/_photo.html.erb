@@ -1,0 +1,10 @@
+<div class="photo">
+<%= image_tag photo.upload.url(:small) %>
+<% if admin_signed_in? %>
+<p>
+ <%= link_to 'Delete', [photo.album, photo],
+               method: :delete,
+               data: { confirm: 'Are you sure?' }, :class => "button" %>
+</p>
+<% end %>
+</div>

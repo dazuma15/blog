@@ -17,12 +17,13 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="84" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.coffee" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.sass" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.erb.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.ruby" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.ruby" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -36,6 +37,10 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
@@ -44,17 +49,33 @@
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/welcome/index.html.erb"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="96" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.erb.html" name="index.html.erb" partName="index.html.erb | albums" title="index.html.erb | albums" tooltip="/home/derek/Desktop/Work/blog/app/views/albums/index.html.erb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/index.html.erb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="278" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.erb.html" name="show.html.erb" partName="show.html.erb" title="show.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/welcome/show.html.erb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/welcome/show.html.erb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
 <editor id="com.aptana.editor.erb.html" name="application.html.erb" partName="application.html.erb" title="application.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="720" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.js" name="application.js" partName="application.js" title="application.js" tooltip="/home/derek/Desktop/Work/blog/app/assets/javascripts/application.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/application.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="90"/>
+</editor>
+<editor id="com.aptana.editor.coffee" name="photos.js.coffee" partName="photos.js.coffee" title="photos.js.coffee" tooltip="/home/derek/Desktop/Work/blog/app/assets/javascripts/photos.js.coffee" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/photos.js.coffee"/>
+<editorState selectionHorizontalPixel="0" selectionLength="56" selectionOffset="211" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="create.js.erb" partName="create.js.erb" title="create.js.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/photos/create.js.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/photos/create.js.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="192" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="photos_controller.rb" partName="photos_controller.rb" title="photos_controller.rb" tooltip="/home/derek/Desktop/Work/blog/app/controllers/photos_controller.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/controllers/photos_controller.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="207" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="show.html.erb" partName="show.html.erb" title="show.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/albums/show.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/show.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="89" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.erb.html" name="_photo.html.erb" partName="_photo.html.erb" title="_photo.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/photos/_photo.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/derek/Desktop/Work/blog/app/views/photos/_photo.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="263" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -187,174 +208,170 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/derek/Desktop/Work/blog/app/models/post.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/derek/Desktop/Work/blog/app/models/photo.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/welcome/index.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/index.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/application.js"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.coffee" uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/albums.js.coffee"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.coffee" uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/photos.js.coffee"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/photos/create.js.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/derek/Desktop/Work/blog/app/controllers/photos_controller.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/welcome/show.html.erb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/show.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/albums.css.scss"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/edit.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/new.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/derek/Desktop/Work/blog/app/models/post.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/welcome/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/welcome/show.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/welcome/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/index.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.coffee" uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/photos.js.coffee"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/albums/show.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/derek/Desktop/Work/blog/app/views/photos/_photo.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/derek/Desktop/Work/blog/app/controllers/photos_controller.rb"/>
 </editors>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="photo.rb" index="2">
-<position info="not_deleted" x="348" y="0"/>
-</item>
-<item historyLabel="index.html.erb | welcome" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="photo.rb" index="2">
-<position info="not_deleted" x="348" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="post.rb" index="1">
-<position info="not_deleted" x="281" y="84"/>
-</item>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="show.html.erb | welcome" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="5">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="albums.css.scss" index="6">
-<position info="not_deleted" x="364" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="5">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="show.html.erb | welcome" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="5">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="5">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="application.html.erb" index="7">
-<position/>
-</item>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="5">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="application.html.erb" index="7">
-<position info="not_deleted" x="720" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="5">
-<position info="not_deleted" x="345" y="0"/>
-</item>
-<item historyLabel="albums.css.scss" index="6">
-<position info="not_deleted" x="541" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="5">
-<position info="not_deleted" x="345" y="0"/>
-</item>
-<item historyLabel="show.html.erb" index="5">
-<position info="not_deleted" x="195" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="0">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="edit.html.erb" index="8">
-<position info="not_deleted" x="122" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="9">
-<position info="not_deleted" x="19" y="0"/>
-</item>
-<item historyLabel="new.html.erb" index="9">
-<position info="not_deleted" x="111" y="0"/>
-</item>
-<item historyLabel="edit.html.erb" index="8">
-<position info="not_deleted" x="122" y="0"/>
-</item>
-<item historyLabel="edit.html.erb" index="8">
-<position info="not_deleted" x="114" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="10">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="post.rb" index="11">
-<position info="not_deleted" x="281" y="84"/>
-</item>
-<item historyLabel="index.html.erb | welcome" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html.erb | welcome" index="12">
-<position info="not_deleted" x="61" y="0"/>
-</item>
-<item historyLabel="index.html.erb | welcome" index="12">
+<item historyLabel="index.html.erb | welcome" index="0">
 <position info="not_deleted" x="96" y="0"/>
 </item>
-<item historyLabel="index.html.erb | albums" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html.erb | albums" index="13">
-<position/>
-</item>
-<item historyLabel="index.html.erb | albums" index="13">
-<position/>
-</item>
-<item historyLabel="show.html.erb" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html.erb | albums" index="13">
-<position/>
-</item>
-<item historyLabel="index.html.erb | albums" index="13">
-<position/>
-</item>
-<item historyLabel="index.html.erb | albums" index="13">
+<item historyLabel="index.html.erb | albums" index="1">
 <position info="not_deleted" x="94" y="0"/>
 </item>
-<item historyLabel="application.html.erb" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html.erb | welcome" index="16">
-<position info="not_deleted" x="96" y="0"/>
-</item>
-<item historyLabel="index.html.erb | albums" index="17">
-<position info="not_deleted" x="94" y="0"/>
-</item>
-<item historyLabel="index.html.erb | albums" index="17">
+<item historyLabel="index.html.erb | albums" index="1">
 <position info="not_deleted" x="278" y="0"/>
 </item>
-<item historyLabel="index.html.erb | albums" index="17">
+<item historyLabel="index.html.erb | albums" index="1">
 <position info="not_deleted" x="366" y="0"/>
 </item>
-<item active="true" historyLabel="index.html.erb | albums" index="17">
-<position info="not_deleted" x="367" y="0"/>
+<item historyLabel="index.html.erb" index="1">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="application.js" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="albums.js.coffee" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="photos.js.coffee" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="photos.js.coffee" index="4">
+<position info="not_deleted" x="267" y="0"/>
+</item>
+<item historyLabel="photos.js.coffee" index="4">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="photos.js.coffee" index="4">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="photos_controller.rb" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="index.html.erb" index="1">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="photos.js.coffee" index="4">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position/>
+</item>
+<item historyLabel="show.html.erb" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="albums.js.coffee" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position/>
+</item>
+<item historyLabel="show.html.erb" index="8">
+<position info="not_deleted" x="159" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="albums.js.coffee" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="photos_controller.rb" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="photos_controller.rb" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="photos.js.coffee" index="4">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="photos.js.coffee" index="4">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="photos_controller.rb" index="6">
+<position info="not_deleted" x="191" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position/>
+</item>
+<item historyLabel="photos_controller.rb" index="6">
+<position info="not_deleted" x="207" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="15" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="application.html.erb" index="9">
+<position info="not_deleted" x="720" y="0"/>
+</item>
+<item historyLabel="photos.js.coffee" index="10">
+<position info="not_deleted" x="211" y="56"/>
+</item>
+<item historyLabel="create.js.erb" index="5">
+<position info="not_deleted" x="135" y="47"/>
+</item>
+<item historyLabel="show.html.erb" index="11">
+<position/>
+</item>
+<item historyLabel="_photo.html.erb" index="12">
+<position info="not_deleted" x="263" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="11">
+<position/>
+</item>
+<item historyLabel="photos_controller.rb" index="13">
+<position info="not_deleted" x="207" y="0"/>
+</item>
+<item active="true" historyLabel="_photo.html.erb" index="12">
+<position info="not_deleted" x="263" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -373,6 +390,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_photo.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/photos/_photo.html.erb">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/photos/_photo.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="show.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/albums/show.html.erb">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/albums/show.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="photos_controller.rb" tooltip="/home/derek/Desktop/Work/blog/app/controllers/photos_controller.rb">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/controllers/photos_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="create.js.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/photos/create.js.erb">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/photos/create.js.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.coffee" name="photos.js.coffee" tooltip="/home/derek/Desktop/Work/blog/app/assets/javascripts/photos.js.coffee">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/photos.js.coffee"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.coffee" name="albums.js.coffee" tooltip="/home/derek/Desktop/Work/blog/app/assets/javascripts/albums.js.coffee">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/albums.js.coffee"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="application.js" tooltip="/home/derek/Desktop/Work/blog/app/assets/javascripts/application.js">
+<persistable uri="file:/home/derek/Desktop/Work/blog/app/assets/javascripts/application.js"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="application.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb">
 <persistable uri="file:/home/derek/Desktop/Work/blog/app/views/layouts/application.html.erb"/>
 </file>
@@ -394,29 +432,8 @@
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" name="albums.css.scss" tooltip="/home/derek/Desktop/Work/blog/app/assets/stylesheets/albums.css.scss">
 <persistable uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/albums.css.scss"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="show.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/albums/show.html.erb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/albums/show.html.erb"/>
-</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="photo.rb" tooltip="/home/derek/Desktop/Work/blog/app/models/photo.rb">
 <persistable uri="file:/home/derek/Desktop/Work/blog/app/models/photo.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="post.rb" tooltip="/home/derek/Desktop/Work/blog/app/models/post.rb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/models/post.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/posts/index.html.erb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/posts/index.html.erb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" name="posts.css.scss" tooltip="/home/derek/Desktop/Work/blog/app/assets/stylesheets/posts.css.scss">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/assets/stylesheets/posts.css.scss"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="albums_controller.rb" tooltip="/home/derek/Desktop/Work/blog/app/controllers/albums_controller.rb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/controllers/albums_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_comment.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/comments/_comment.html.erb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/comments/_comment.html.erb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_form.html.erb" tooltip="/home/derek/Desktop/Work/blog/app/views/comments/_form.html.erb">
-<persistable uri="file:/home/derek/Desktop/Work/blog/app/views/comments/_form.html.erb"/>
 </file>
 </mruList>
 </workbench>
