@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
 
   # After sign in redirect to admin index page
   def after_sign_in_path_for(resource)
-  posts_path
+  root_path
   end
 
   def check_for_mobile

@@ -11,7 +11,7 @@
     </tr>
     <tr>
       <% if album.photos.first %>
-      <td><%= image_tag album.photos.first.upload.url(:small) %></td>
+      <td><%= image_tag album.photos.first.upload.url(:small), :style => "border-radius: 25px;" %></td>
       <% end %>
     </tr>
     <tr>
