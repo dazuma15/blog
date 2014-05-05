@@ -1,5 +1,5 @@
 <div class="photo">
-<%= image_tag photo.upload.url(:small) %>
+<a href=<%= photo.upload.url(:mobile) %> class="group" rel="gallery"><%= image_tag photo.upload.url(:small) %></a>
 <% if admin_signed_in? %>
 <p>
  <%= link_to 'Delete', [photo.album, photo],

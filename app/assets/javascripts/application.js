@@ -27,4 +27,13 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+  $("a.group").fancybox();
+  $(".group")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 0,
+    });
+});
+
 
