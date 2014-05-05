@@ -4,6 +4,9 @@ Blog::Application.routes.draw do
     resources :comments
   end
   resources :welcome
+  resources :albums do
+    resources :photos
+  end
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

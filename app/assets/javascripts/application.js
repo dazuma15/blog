@@ -15,10 +15,21 @@
 //= require fancybox
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery-fileupload/basic
+//= require jquery-fileupload/vendor/tmpl
 //= require_tree .
 $(document).ready(function() {
   $("a.fancybox").fancybox();
   $(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 0,
+    });
+});
+
+$(document).ready(function() {
+  $("a.group").fancybox();
+  $(".group")
     .attr('rel', 'gallery')
     .fancybox({
         padding : 0,

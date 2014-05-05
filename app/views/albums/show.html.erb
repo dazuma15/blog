@@ -1,0 +1,24 @@
+<div id="content">
+<h1>
+  <%= @album.title %>
+</h1>
+<div id="photos">
+<%= render @photos %>
+</div>
+<% if admin_signed_in? %>
+<h2>Add a photo:</h2>
+<%= form_for([@album, @album.photos.build], :html => { :multipart => true }) do |f| %>
+  <%= f.file_field :upload, multiple: true, name: "photo[upload]", :style => "margin-bottom: 20px;" %>
+<% end %>
+<% end %>
+<script id="template-upload" type="text/x-tmpl">
+<div class="upload">
+  {%=o.name%}
+  <div class="progress"><div class="bar" style="width: 0%"></div></div>
+</div>
+</script>
+<%= link_to 'Back', albums_path, :class => "button", :style => "margin-top: 25px;" %>
+<% if admin_signed_in? %>
+<%= link_to 'Edit', edit_album_path(@album), :class => "button", :style => "margin-top: 25px;" %>
+<% end %>
+</div>

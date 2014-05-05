@@ -6,6 +6,9 @@ gem 'seed_dump'
 # s3 gem to upload pictures to s3
 gem 'aws-sdk'
 
+# jquery-upload for multiple uploads at once
+gem 'jquery-fileupload-rails'
+
 # Fancybox for pop ups
 gem 'fancybox2-rails'
 
