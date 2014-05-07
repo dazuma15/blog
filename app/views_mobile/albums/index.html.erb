@@ -1,0 +1,28 @@
+<div id="mobile_content" style="padding-bottom: 20px;">
+<div id="home">
+<%= link_to 'Home', root_path, :class => "button", :style => "margin-top:20px; width: 35%; height: 75px; font-size: 350%; padding-top: 20px;" %>
+</div>
+<h1 style="font-size: 400%;">Albums</h1>
+  <% @albums.each do |album| %>
+  <div class="mobile_album">
+    <table>
+    <tr>
+      <td><h2><%= album.title %></h2></td>
+    </tr>
+    <tr>
+      <% if album.photos.first %>
+      <td><%= image_tag album.photos.first.upload.url(:mobile), :style => "border-radius: 25px;" %></td>
+      <% end %>
+    </tr>
+    <tr>
+      <td><%= link_to 'View', album_path(album), :class => "mobile_button", :style => "width: 33%;" %></td>
+      <% if admin_signed_in? %>
+      <td><%= link_to 'Edit', edit_album_path(album), :class => "mobile_button", :style => "width: 33%;" %></td>
+      <td><%= link_to 'Delete', album_path(album),
+                       method: :delete, data: { confirm: 'Are you sure?' }, :class => "mobile_button", :style => "width: 33%;" %></td>
+      <% end %>
+    </tr>
+    </table>
+  </div>
+  <% end %>
+</div>

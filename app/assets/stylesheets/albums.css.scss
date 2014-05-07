@@ -24,8 +24,39 @@
   }
 }
 
+.mobile_album {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  img {
+    width: 100%;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr {
+    width: 100%;
+  }
+  td {
+    display: inline;
+    width: 33%;
+    text-align: center;
+  }
+}
+
 .photo {
   width: 33%;
+  display: inline-table;
+  text-align: center;
+  margin-bottom: 15px;
+  img {
+    border-radius: 25px;
+  }
+}
+
+.mobile_photo {
+  width: 80%;
   display: inline-table;
   text-align: center;
   margin-bottom: 15px;

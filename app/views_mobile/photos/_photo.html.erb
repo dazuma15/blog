@@ -1,0 +1,10 @@
+<div class="mobile_photo">
+<a href=<%= photo.upload.url(:mobile) %> class="group" rel="gallery"><%= image_tag photo.upload.url(:small) %></a>
+<% if admin_signed_in? %>
+<p>
+ <%= link_to 'Delete', [photo.album, photo],
+               method: :delete,
+               data: { confirm: 'Are you sure?' }, :class => "mobile_button", :style => "font-size: 215%;" %>
+</p>
+<% end %>
+</div>
